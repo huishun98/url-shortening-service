@@ -8,7 +8,7 @@ This project consists of:
 1. A back-end (REST / HTTP API) server which:
     * returns a short URL when given a specified URL
     * looks up or redirects to the specified URL when given a short URL
-2. Develop a simple front-end (website / application) which allows users to easily create new shortened URLs.
+2. A simple front-end (website / application) which allows users to easily create new shortened URLs.
 
 ### Live Site
 * Frontend: https://url-shortening-service.netlify.app/
