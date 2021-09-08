@@ -14,7 +14,7 @@ This project consists of:
 * Frontend: https://url-shortening-service.netlify.app/
 * Backend: https://url-shorterning-service.herokuapp.com/
 
-## Quick Start
+## Quick Start (using Docker)
 
 1. Clone this repository and its submodules: `git clone --recursive git@github.com:huishun98/url-shortening-service.git`
 <!-- To update submodules, run `git submodule update --remote --merge` -->
@@ -35,4 +35,4 @@ This project consists of:
 2. Frontend — Vue.js
 3. Database — MongoDB
     * Easy to run and test locally, compared to cloud-based databases like Firebase
-    * Unlimited free cloud hosting is available for non-relational databases, unlike relational databases
+    * Unlimited free cloud hosting is available for non-relational databases but not relational databases
