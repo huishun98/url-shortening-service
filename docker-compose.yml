@@ -1,25 +1,17 @@
-# check your version: https://docs.docker.com/compose/compose-file/
 version: "3.7"
 
-
 services:
-# first container
     backend:
-        # look for dockerfile and build the container
         build: ./backend
         container_name:  backend
         restart: always
-        # set enviornemt variables
         environment:
             - FRONTEND_URL_ONE=http://localhost:8080/ 
             - FRONTEND_URL_TWO=http://127.0.0.1:8080/ 
             - MONGO_INITDB_ROOT_USERNAME=root
             - MONGO_INITDB_ROOT_PASSWORD=pass
-        #     - APP_NAME=FlaskApp
-        #  mount the volumes so we can change code and hot reload
         volumes:
             - './backend:/backend'
-        #  expose port on the container, only to other containers
         ports:
             - "5000:5000"
         expose:
@@ -45,10 +37,7 @@ services:
         restart: always
         volumes:
             - './frontend:/frontend'
-        #  port allows the host machine to link to container
-        #  8000 for vue ui, 5000 for our vue app
         ports:
-            # - "8000:8000"
             - "8080:8080"
         expose: 
             - 8080
