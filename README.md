@@ -30,8 +30,6 @@ This project consists of:
 
 - **I ship containers** -- Application is dockerized for easy deployment and testing.
 
-<!-- - **Tried and tested** -- Write a few unit / functional tests, or even an API canary. -->
-
 ## Tech stack and Considerations
 1. Backend — Flask
 2. Frontend — Vue.js
