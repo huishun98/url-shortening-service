@@ -17,7 +17,7 @@ This project consists of:
 ## Quick Start
 
 1. Clone this repository and its submodules: `git clone --recursive git@github.com:huishun98/url-shortening-service.git`
-<!-- To update submodules, run `git submodule update` -->
+<!-- To update submodules, run `git submodule update --remote --merge` -->
 2. In the project root, run `sudo docker-compose up`.
 
 ## Features Included
